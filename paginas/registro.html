@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Mr. Gourmet-Registro</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<meta name="keywords" content="comida,gourmet,delivery,restaurant">
+	<meta charset="utf-8">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<!-- Brand -->
+		<h1 class="navbar-brand">MR. GOURMET...</h1>
+	  
+		<!-- paginas -->
+		<ul class="navbar-nav">
+		  <li class="nav-item">
+			<a class="nav-link" href="../index.html">Inicio</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="../paginas/menu.html">Menu</a>
+		  </li>
+		<li class="nav-item">
+			<a class="nav-link" href="../paginas/registro.html">Registrarse</a>
+		  </li>
+	  
+		  <!-- Menu desplegable -->
+		  <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+			  Contacto
+			</a>
+			<div class="dropdown-menu">
+			<a class="dropdown-item" href="../paginas/contacto.html">Contacto</a>
+			  <a class="dropdown-item" href="../paginas/somos.html">¿Quienes Somos?</a>
+			</div>
+		  </li>
+		</ul>
+	  </nav>
+	  <br>
+
+	  <section class="content">
+
+		<h2 class="tituloDos titulo__doselm titulo--dosmod">REGISTRO</h2><br>
+
+	  <form action="" class="formulario formulario__elm formulario--mod">
+
+		<label class="formulario">Nombre</label>
+		<input class="formulario" type="text" name="Nombre"> <br>
+		
+		<label class="formulario">Apellidos</label>
+		<input class="formulario" type="text" name="Apellidos"> <br>
+		
+		<label class="formulario" >Mail</label>
+		<input class="formulario" type="mail" name="mail"><br>
+		
+		
+		<select class="formulario">
+			<label name="Edad">Edad</label>
+			<option>-18</option>
+			<option>+18</option>
+			<option>Tercera Edad</option>
+		</select> <br>
+		
+		<label class="formulario">¿Desea recibir ofertas?</label>
+		<input class="formulario" type="radio" name="si"><br>
+		
+		<textarea class="formulario" placeholder="Comentarios"></textarea> <br>
+		
+		
+		<button type="button" class="btn btn-secondary">Enviar</button>
+		<button type="reset" class="btn btn-secondary">reset</button>
+		
+		</form><hr>
+
+		<!--pie de pagina-->
+<footer class="pie pie__elm pie--mod"><a href="../index.html" class="pie pie__elm pie--mod">Mr. Gourmet...&copy</a></footer>
+	
+</section>
+</body>
+</html>

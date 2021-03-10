@@ -1,0 +1,163 @@
+.carousel-inner{
+    transform: translateX(200px);
+}
+
+body{
+    background-color: #95a5a6;
+}
+
+.navbar-nav{
+    transform: translateX(400px);
+}
+
+
+/*BEM*/
+
+.tituloUno{
+    text-align: left;
+
+}
+
+.titulo__unoelm{
+color:black;
+}
+
+.titulo--unomod{
+font-family: arial;
+}
+
+/*BEM*/
+
+.tituloDos{
+    color: black;
+}
+
+.titulo__doselm{
+font-style: italic;
+}
+
+.titulo--dosmod{
+   text-align: center;
+ 
+}
+
+/*BEM*/
+
+.tituloTres{
+    color: black;
+}
+
+.titulo__treselm{
+    font-style: italic;
+}
+
+.titulo--tresmod{
+    text-align: center;
+}
+
+/*BEM*/
+
+.parrafos{
+    color:black; 
+    transform:translate(25px,-250px);
+}
+
+.parrafos__elm{
+    text-align: center;
+}
+
+.parrafos--mod{
+
+    font-style: italic;
+}
+
+/*BEM*/
+
+.fotos{
+border-radius: 15px;
+}
+
+.fotos__elm{
+border: solid 2px gray ;
+}
+
+.fotos--mod{
+margin:25px ;
+}
+
+/*BEM*/
+
+.contacto{
+transform: translateX(600px);
+}
+
+.contacto__elm{
+color:black ;
+}
+
+.contacto--mod{
+font-weight: bold;
+}
+
+/*BEM*/
+
+.tabla{
+text-align: center;
+
+}
+
+.tabla__elm{
+color: black ;
+}
+
+.tabla--mod{
+transform: translateX(600px);
+}
+/*BEM*/
+
+.somos{
+transform: translateX(300px);
+
+}
+
+.somos__elm{
+color:black ;
+}
+
+.somos--mod{
+text-align: justify;
+}
+
+/*BEM*/
+
+.formulario{
+margin-bottom: 15px;
+}
+
+.formulario__elm{
+    color :black  ;
+}
+
+.formulario--mod{
+    transform: translateX(600px);
+}
+
+
+
+/*BEM*/
+
+.pie{
+font-weight: bold;
+}
+
+.pie__elm{
+color:  black ;
+}
+
+.pie--mod{
+    text-align: left;
+    text-decoration: none;
+}
+
+
+
